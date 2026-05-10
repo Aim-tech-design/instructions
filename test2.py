@@ -116,4 +116,4 @@ def run_pipeline():
         writer.writeheader()  # ← здесь файл реально создаётся
         if sources:
             writer.writerows(sources)
-    print(f" Extracted {len(sources)} bibliography entries → {output_path}")
+    print(f" Extracted {len(sources)} bibliography entries → {output_path}")# test
